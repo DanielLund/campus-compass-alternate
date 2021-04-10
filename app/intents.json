@@ -1,0 +1,35 @@
+{"intents": [
+        {"tag": "greeting",
+          "patterns": ["Hi", "Hello", "How are you?", "Hey"],
+          "responses": ["Hi, how can I help?", "Hello!",
+            "Hi!", "Greetings!", "Hey there, what can I do for you?"]
+        },
+        {"tag": "goodbye",
+          "patterns": ["Bye", "Goodbye", "See ya", "Have a good day"],
+          "responses": ["Thanks for using campus compass", "Hope to see you again soon",
+          "Goodbye!"]
+        },
+        {"tag": "Help",
+          "patterns": ["I need directions", "I am lost", "I need help", "Help me get to", "I need your help"],
+          "responses": ["Where are you located?", "Which building are you near?",
+            "Where abouts are you?", "Where on campus are you?",
+            "Where is your nearest building?"]
+        },
+        {"tag": "location",
+          "patterns": ["I am at", "I am currently at", "I am near"],
+          "responses": ["Where do you want to go?", "Where do you need to go?",
+          "Which building do you need to get to?"]
+        },
+        {"tag": "buildings",
+          "patterns": ["library", "1 west", "1 west north", "3 west", "3 west north",
+            "wessex house", "fresh", "santander", "barclays", "5 west", "7 west",
+            "9 west", "2 west", "university hall", "uni hall", "4 west", "6 west",
+            "6 west south", "8 west", "10 west", "1 south", "2 south", "3 south",
+            "4 south", "milner centre", "1 east", "3 east", "norwood", "students union",
+            "su", "founders hall", "chancellors building", "chancellors", "2 east",
+            "4 east", "4 east south", "6 east", "8 east", "the edge", "east building",
+            "stv"],
+          "responses": ["Running algorithm now!",
+            "Working out directions....", "Figuring out directions now!"]
+        }
+  ]}
